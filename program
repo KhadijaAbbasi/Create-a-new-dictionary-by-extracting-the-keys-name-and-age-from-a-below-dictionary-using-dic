@@ -1,0 +1,8 @@
+myDict = {
+  "name": "Ahmed",
+  "age":25,
+  "salary": 5000,
+  "city": "Lahore"
+}
+myDict1 = {k: myDict[k] for k in myDict.keys() - {'salary','city'}}
+print(myDict1)
